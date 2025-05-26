@@ -82,7 +82,7 @@ This project is licensed under the **BSD-3-Clause License** (original 2023 terms
 - License file: [LICENSE](LICENSE)
 - License history: [docs/LICENSE_HISTORY.md](docs/LICENSE_HISTORY.md)
 
-> ⚠️ Note: This fork removes any post-2023 license modifications introduced in later versions of Open WebUI.
+> ⚠️ Note: This fork removes any post v0.6.5 license modifications introduced in v0.6.6 of Open WebUI.
 
 ---
 
@@ -99,15 +99,15 @@ Track progress in our [GitHub Projects](https://github.com/ailabsarg/open-chat/p
 
 ## 🤝 Support
 
-- 📚 [Documentation](https://docs.open-chat.ai)
-- 💬 [Discord Community](https://discord.gg/your-community)
+- 📚 [Documentation (Original Open WebUI](https://docs.openwebui.com/)
+- 💬 [Discord Open Web UI Community](https://discord.com/invite/5rJgQTnV4s)
 - 🐛 [Issue Tracker](https://github.com/ailabsarg/open-chat/issues)
 
 ---
 
 ## 🏆 Credits
 
-Created by the [Open WebUI Community](https://github.com/open-webui) with license preservation by the Open Chat team.  
+Created by [Timothy Jaeryang Baek](https://github.com/tjbck) - 💪 and the [Open WebUI Community](https://github.com/open-webui) with license preservation by the aiLabs.ar Open-Chat team.  
 Special thanks to @tjbck for the original BSD-3-Clause implementation.
 
 ---
