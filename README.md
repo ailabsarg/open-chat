@@ -44,7 +44,7 @@ docker run -d \
 ```
 
 > ⚠️ **Important**:
-> - These commands use **your fork's Docker image** (`ghcr.io/ailabsarg/open-chat`)
+> - These commands use **our fork's Docker image** (`ghcr.io/ailabsarg/open-chat`)
 > - The `:0.6.5` tag ensures users get the **original BSD-3-Clause version**
 > - Avoid using `:main` to prevent accidental updates to later versions
 
@@ -61,7 +61,7 @@ docker run -d \
 
 ## 📦 Build from Source (Optional)
 
-If you want to build directly from your fork's codebase:
+If you want to build directly from our fork's codebase:
 
 ```bash
 git clone https://github.com/ailabsarg/open-chat.git
