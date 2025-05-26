@@ -3,7 +3,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/ailabsarg/open-chat?style=social)  
 [![License](https://img.shields.io/badge/license-BSD--3--Clause-blue)](LICENSE)
 
-A **self-hosted fork** of Open WebUI v0.6.5 under the **original BSD-3-Clause license**. This version preserves the license terms from 2023 and removes post-2023 modifications that introduced rebranding restrictions.
+A **self-hosted fork** of Open WebUI v0.6.5 under the **original BSD-3-Clause license**. This version preserves the BSD-3-Clause license terms from 2024 and removes post-2025 modifications that introduced rebranding restrictions.
 
 ---
 
