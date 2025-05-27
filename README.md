@@ -141,7 +141,7 @@ http://ailabs.chat (live demo)
 > Please note that for certain Docker environments, additional configurations might be needed. If you encounter any connection issues, our detailed guide on [Open WebUI Documentation](https://docs.openwebui.com/) is ready to assist you.
 
 > [!WARNING]
-> When using Docker to install Open Chat, make sure to include the `-v open-chat:/app/backend/data` in your Docker command. This step is crucial as it ensures your database is properly mounted and prevents any loss of data.
+> When using Docker to install Open Chat, make sure to include the `-v open-chat-data:/app/backend/data` in your Docker command. This step is crucial as it ensures your database is properly mounted and prevents any loss of data.
 
 > [!TIP]  
 > If you wish to utilize Open Chat with Ollama included or CUDA acceleration, we recommend utilizing our official images tagged with either `:cuda` or `:ollama`. To enable CUDA, you must install the [Nvidia CUDA container toolkit](https://docs.nvidia.com/dgx/nvidia-container-runtime-upgrade/) on your Linux/WSL system.
@@ -153,7 +153,7 @@ If you're experiencing connection issues, it’s often due to the Open Chat dock
 **Example Docker Command**:
 
 ```bash
-docker run -d --network=host -v open-chat:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-chat --restart always ghcr.io/ailabsarg/open-chat:0.6.5
+docker run -d --network=host -v open-chat-data:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-chat --restart always ghcr.io/ailabsarg/open-chat:0.6.5
 ```
 
 
