@@ -26,7 +26,7 @@ docker run -d \
   -v open-chat-data:/app/backend/data \
   --name open-chat \
   --restart always \
-  ghcr.io/ailabsarg/open-chat:0.6.5
+  ghcr.io/ailabsarg/open-chat:0.7.0
 ```
 
 #### 🛠️ Optional: GPU Support
@@ -40,13 +40,13 @@ docker run -d \
   -v open-chat-data:/app/backend/data \
   --name open-chat \
   --restart always \
-  ghcr.io/ailabsarg/open-chat:0.6.5-cuda
+  ghcr.io/ailabsarg/open-chat:0.7.0-cuda
 ```
 
 > ⚠️ **Important**:
 > - These commands use **our fork's Docker image** (`ghcr.io/ailabsarg/open-chat`)
-> - The `:0.6.5` tag ensures users get the **original BSD-3-Clause version**
-> - Avoid using `:main` to prevent accidental updates to later versions
+> - The `:0.7.0` tag ensures users get the **original BSD-3-Clause version**
+
 
 ---
 
@@ -68,10 +68,10 @@ git clone https://github.com/ailabsarg/open-chat.git
 cd open-chat
 
 # Build base version
-docker build -t ghcr.io/ailabsarg/open-chat:0.6.5 .
+docker build -t ghcr.io/ailabsarg/open-chat:0.7.0 .
 
 # Build CUDA version
-docker build -t ghcr.io/ailabsarg/open-chat:0.6.5-cuda --build-arg USE_CUDA=true .
+docker build -t ghcr.io/ailabsarg/open-chat:0.7.0-cuda --build-arg USE_CUDA=true .
 ```
 
 ---
@@ -84,24 +84,12 @@ This project is licensed under the **BSD-3-Clause License** (original 2023 terms
 
 > ⚠️ Note: This fork removes any post v0.6.5 license modifications introduced in v0.6.6 of Open WebUI.
 
----
 
-## 📈 Roadmap
-
-Upcoming features in v0.7.0:
-- Native support for Llama.cpp
-- Enhanced model management UI
-- API key rotation system
-
-Track progress in our [GitHub Projects](https://github.com/ailabsarg/open-chat/projects/1).
-
----
-
-## 🤝 Support
+## 🤝 Support (Open WebUI)
 
 - 📚 [Documentation (Original Open WebUI](https://docs.openwebui.com/)
 - 💬 [Discord Open Web UI Community](https://discord.com/invite/5rJgQTnV4s)
-- 🐛 [Issue Tracker](https://github.com/ailabsarg/open-chat/issues)
+
 
 ---
 
@@ -112,8 +100,7 @@ Special thanks to @tjbck for the original BSD-3-Clause implementation.
 
 ---
 
-*Star history chart:*  
-[![Star History](https://api.star-history.com/svg?repos=ailabsarg/open-chat&type=Date)](https://star-history.com/#ailabsarg/open-chat)
+
 
 ---
 
@@ -126,7 +113,7 @@ docker run -d \
   -v open-chat-data:/app/backend/data \
   --name open-chat \
   --restart always \
-  ghcr.io/ailabsarg/open-chat:0.6.5
+  ghcr.io/ailabsarg/open-chat:0.7.0
 ```
 
 ---
@@ -153,7 +140,7 @@ If you're experiencing connection issues, it’s often due to the Open Chat dock
 **Example Docker Command**:
 
 ```bash
-docker run -d --network=host -v open-chat-data:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-chat --restart always ghcr.io/ailabsarg/open-chat:0.6.5
+docker run -d --network=host -v open-chat-data:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-chat --restart always ghcr.io/ailabsarg/open-chat:0.7.0
 ```
 
 
